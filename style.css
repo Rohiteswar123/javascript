@@ -1,0 +1,74 @@
+*{
+    margin: 0 px;
+    border:0px;
+    font-family: 'Baloo Bhai 2', cursive;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(45deg,#cc2b5e , #753a88);
+    color:white;
+}
+h1{
+    text-align: center;
+    margin:100px auto 50px;
+    font-weight: 660;
+}
+/* f128c9f7ff4cf5378bdac552a60f5f97 */
+form{
+    width:90%;
+    max-width: 600px;
+    margin:auto;
+    height: 80px;
+    background: #434989;
+    display: flex;
+    align-items: center;
+}
+form input{
+    flex:1;
+    height:100%;
+    border:0;
+    outline:0;
+    background: transparent;
+    color: whitesmoke;
+    font-size: 18px;
+    padding: 0 30px;
+    cursor: pointer;
+}
+form button{
+    padding: 0 40px;
+    height: 100%;
+    background: burlywood;
+    font-size: 18px;
+    color: white;
+    border:0px;
+    outline:0;
+    cursor: pointer;
+}
+::placeholder{
+    color:#fff;
+    font-size:18px;
+}
+#show-more-btn{
+    background: #ff3929;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin:10px auto  100px;
+    cursor:pointer;
+    display: none;
+}
+#search-result{
+    width:80%;
+    margin:100px auto 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:40px;
+}
+#search-result img{
+    width:100%;
+    height:230px;
+    object-fit: cover;
+    border-radius: 5px;
+}
